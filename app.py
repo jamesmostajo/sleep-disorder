@@ -14,7 +14,7 @@ with st.form("my_form"):
     match work_type:
         case "Never worked": work_type = 0
         case "With children": work_type = 1
-        case "Government Job": work_type = 2
+        case "Government job": work_type = 2
         case "Self-employed": work_type = 3
         case "Private": work_type = 3
     residence_type = st.selectbox("Residence Type", ["Urban", "Rural"])
